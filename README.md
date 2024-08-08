@@ -63,7 +63,11 @@ npm run dev
 
 ## Atualizações:
 
-- 0.0.1 - 🎉
+- 0.0.3 - 📝 Atualizar função
+  - update getData().
+- 0.0.2 - 📝 Atualizando README.md
+  - update README.md.
+- 0.0.1 - 🎉 Inicio
   - first commit.
 
 ## Informações adicionais:

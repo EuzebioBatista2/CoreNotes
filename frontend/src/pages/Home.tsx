@@ -42,7 +42,7 @@ export default function Home(){
 
     setTimeout(async () => {
       getNotes();
-    }, 200);
+    }, 500);
   }
 
   return (
