@@ -4,6 +4,10 @@
 
 Projeto criado com o intuito de salvar anotações de forma personalizada.
 
+## Deploy:
+
+- https://dev-core-notes.vercel.app
+
 ## Recursos usados:
 
 > Frontend:
@@ -45,6 +49,18 @@ npx tsc
 
 ## Rodando o projeto:
 
+> Requisitos
+
+conta na plataforma mongo atlas, onde será criado um link de acesso ao banco de dados através da URI:
+
+- mongodb+srv://${userName}:${password}@projeto.0wxyi.mongodb.net/?retryWrites=true&w=majority&appName=Projeto
+
+Basta inseri-la através da variavel de ambiente(.env):
+
+- MONGO_URI
+
+Nos demais casos, basta inserir as variáveis através do .env.example.
+
 > Frontend:
 
 ```sh
@@ -63,6 +79,8 @@ npm run dev
 
 ## Atualizações:
 
+- 0.0.4 - 📝 Atualizar documentação
+  - update documentation.
 - 0.0.3 - 📝 Atualizar função
   - update getData().
 - 0.0.2 - 📝 Atualizando README.md
