@@ -43,7 +43,7 @@ npm install
 npx tsc
 ```
 
-## Running project:
+## Rodando o projeto:
 
 > Frontend:
 
@@ -61,12 +61,12 @@ npm run dev
 
 - http://localhost:5000/
 
-## Updates:
+## Atualizações:
 
-- 0.0.1 - 🎉 Initial project
-  - Initial project.
+- 0.0.1 - 🎉
+  - first commit.
 
-## Additional informations:
+## Informações adicionais:
 
 Euzebio Batista [@Linkedin](https://www.linkedin.com/in/euzebio-batista) - euzebio.batista2@gmail.com
 
