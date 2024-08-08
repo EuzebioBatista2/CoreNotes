@@ -17,7 +17,7 @@ export const Tag = styled.p`
 export const CardContainer = styled.div`
   display: flex;
   width: 100%;
-  min-height: 400px;
+  min-height: 500px;
   flex-wrap: wrap;
   gap: 20px;
   margin-bottom: 40px;

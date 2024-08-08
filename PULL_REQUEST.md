@@ -79,6 +79,8 @@ npm run dev
 
 ## Atualizações:
 
+- 0.0.5 - 📝 Responsividade da palheta
+  - update color palette.
 - 0.0.4 - 📝 Atualizar documentação
   - update documentation.
 - 0.0.3 - 📝 Atualizar função
