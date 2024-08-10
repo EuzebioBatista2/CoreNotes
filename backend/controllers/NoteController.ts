@@ -55,7 +55,9 @@ class NoteController {
 
     content = content.trim();
 
-    const validData = await Note.find({title: title});
+    const validData = await Note.find({ 
+      title: { $regex: title, $options: 'i' }
+    });
 
     if(validData.length > 0) {
       return res.status(409).json({
@@ -137,7 +139,10 @@ class NoteController {
     }
 
     if(title !== oldTitle) {
-      const validData = await Note.find({title: title});
+      const validData = await Note.find({ 
+        title: { $regex: title, $options: 'i' }
+      });
+      
       if(validData.length > 0) {
         return res.status(409).json({
           message: "O título já existe.",
