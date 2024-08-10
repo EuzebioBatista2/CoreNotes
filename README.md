@@ -79,6 +79,8 @@ npm run dev
 
 ## Atualizações:
 
+- 0.0.7 - 📝 Atualizar arquivos
+  - update files.
 - 0.0.6 - 📝 Título valido
   - update valid title.
 - 0.0.5 - 📝 Responsividade da palheta

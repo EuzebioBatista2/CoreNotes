@@ -45,7 +45,9 @@ class NoteController {
         title = title.trim();
         title = title.charAt(0).toUpperCase() + title.slice(1);
         content = content.trim();
-        const validData = await Note_1.default.find({ title: title });
+        const validData = await Note_1.default.find({
+            title: { $regex: title, $options: 'i' }
+        });
         if (validData.length > 0) {
             return res.status(409).json({
                 message: "O título já existe.",
@@ -110,7 +112,9 @@ class NoteController {
             });
         }
         if (title !== oldTitle) {
-            const validData = await Note_1.default.find({ title: title });
+            const validData = await Note_1.default.find({
+                title: { $regex: title, $options: 'i' }
+            });
             if (validData.length > 0) {
                 return res.status(409).json({
                     message: "O título já existe.",
